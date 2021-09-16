@@ -2,8 +2,8 @@
 const Header = (props) => {
     return (
         <li>
-            <a href="#">{props.linkName}</a>
-        </li >
+            <a href="https://www.google.com/" value="linkName">{props.linkName}</a>
+        </li>
 
     );
 }

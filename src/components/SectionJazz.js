@@ -17,7 +17,7 @@ const SectionJazz = (props) => {
         <article style={{ width: "30%", position: "relative" }}>
             <div style={flex}>
                 <h2 style={absolut}>{props.title}</h2>
-                <img style={{ width: "100%" }} src={props.urlImg}></img>
+                <img style={{ width: "100%" }} src={props.urlImg} alt=""></img>
             </div>
             <h2>{props.name}</h2>
             <h2>{props.time}</h2>

@@ -15,13 +15,11 @@ const items = [
     }
 ]
 
-console.log(items)
-
 const HeaderList = () => {
     return (
         <header>
             <ul>
-                <a style={{ color: "#BB7043" }} href="#">Home</a>
+                <a style={{ color: "#BB7043" }} href="https://www.google.com/">Home</a>
                 <Header linkName={items[0].linkName} />
                 <Header linkName={items[1].linkName} />
                 <Header linkName={items[2].linkName} />
